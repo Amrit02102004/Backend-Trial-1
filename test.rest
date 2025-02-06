@@ -1,0 +1,12 @@
+### Sign up api
+
+POST http://localhost:3000/sign-up
+Content-Type: "application/json"
+
+{
+    "name" : "Amrit Sundarka",
+    "age"  : 21,
+    "password" : "Pass123",
+    "email" : "amrit@gmail.com",
+    "gender" : "male"
+}
